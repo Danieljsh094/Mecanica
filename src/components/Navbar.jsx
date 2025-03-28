@@ -4,8 +4,8 @@ import Logo2 from '../assets/MANTGLO.png'
 
 const Navbar = () => {
     return (
-        <nav className="py-3 px-8 flex justify-between items-center">
-            <div className="flex-wrap items-center">
+        <nav className="fixed top-0 left-0 w-full bg-[#f1f1f1] z-50 py-3 pb-0 px-8 flex justify-between items-center">
+            <div className="flex-wrap items-center max-w-7xl pl-3">
                 <img
                     src={Logo}
                     alt="Mantglo Logo"
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <img src={Logo2} alt="Mantglo Logo" className="w-25" />
                 <span className="font-bold text-lg ml-2"></span>
             </div>
-            <ul className="flex space-x-6 text-black font-medium pr-30">
+            <ul className="flex space-x-6 text-black text-lg font-medium pr-20">
                 <li>
                     <a href="#inicio" className="hover:text-gray-500">Inicio</a>
                 </li>
@@ -36,41 +36,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/*import React from 'react'
-
-const Navbar = () => {
-    return (
-        <nav className='navbar'>
-            <div>
-                <img src="" alt="logo" />
-            </div>
-            <ul className='list'>
-                <li className='list-item'><a href="#inicio">Inicio</a></li>
-                <li className='list-item'><a href="#servicios">Servicios</a></li>
-                <li className='list-item'><a href="#nosotros">Nosotros</a></li>
-                <li className='list-item'><a href="#proyectos">Proyectos</a></li>
-                <li className='list-item'><a href="#contacto">Constacto</a></li>
-            </ul>
-        </nav>
-    )
-}
-
-export default Navbar
-*/}

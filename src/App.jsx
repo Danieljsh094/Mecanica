@@ -1,12 +1,13 @@
-import Carrusel from './components/Carrusel'
-import Navbar from './components/Navbar'
+import Inicio from './components/Inicio'
+import Servicios from './components/Servicios'
+
 
 function App() {
 
   return (
-    <div>
-      <Navbar />
-      <Carrusel />
+    <div className='bg-[#f1f1f1]'>
+      <Inicio />
+      <Servicios />
     </div>
   )
 }
