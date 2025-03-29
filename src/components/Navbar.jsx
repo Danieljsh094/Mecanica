@@ -4,7 +4,7 @@ import Logo2 from '../assets/MANTGLO.png'
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 left-0 w-full bg-[#f1f1f1] z-50 py-3 pb-0 px-8 flex justify-between items-center">
+        <nav className="fixed top-0 left-0 w-full bg-[#F1F1F1] z-50 py-3 pb-0 px-8 flex justify-between items-center shadow-lg">
             <div className="flex-wrap items-center max-w-7xl pl-3">
                 <img
                     src={Logo}
