@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Carrusel from './Carrusel'
+import { ArrowRight } from "lucide-react";
 
 const Inicio = () => {
   return (
@@ -14,8 +15,8 @@ const Inicio = () => {
           Nos especializamos en brindar soluciones eficientes para motores diésel, asegurando un rendimiento óptimo y
           una vida útil más larga para tus vehículos y maquinaria.
         </p>
-        <button className="px-6 py-3 bg-[#1f3547] text-white font-medium rounded-md hover:bg-[#3e586e] transition flex items-center gap-2 cursor-pointer border-none">
-          Solicitar <span>↗</span>
+        <button className="group flex items-center gap-2 bg-[#1e3a56] text-white px-5 py-2 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-[#162b40] cursor-pointer">
+          Solicitar <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:rotate-90" />
         </button>
       </section>
     </>

@@ -13,6 +13,8 @@ const Servicios = ({ services }) => {
                         <ServiceCards key={index} {...service} />
                     ))}
                 </div>
+                <p className='text-center mt-8'>Déjanos ayudarte a maximizar la eficiencia y prolongar la vida útil de tus motores diésel.</p>
+                <h3 className='font-black text-[50px] max-w-3xl ml-[12%] text-center mt-20'>Deja tu servicio a mano de los mejores...</h3>
             </section>
         </>
     )

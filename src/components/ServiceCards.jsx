@@ -2,7 +2,7 @@ const ServiceCard = ({ title, image, description }) => {
     return (
         <div className="relative group w-64 h-96 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             {/* Imagen de fondo */}
-            <img src={image} alt={title} className="w-full h-full object-cover transition duration-300 group-hover:opacity-20 opacity-50" />
+            <img src={image} alt={title} className="w-full h-full object-cover transition duration-300 group-hover:opacity-20 opacity-60" />
 
             {/* Título */}
             <div className="absolute inset-0 flex items-center justify-center text-black text-center font-bold text-lg transition duration-300 group-hover:opacity-0">
